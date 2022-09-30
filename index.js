@@ -3,7 +3,7 @@ const form = document.forms[0];
 const inputDate = document.querySelector("#date");
 const daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
-// reverse string function 
+// reverse string function
 function reverseString(str) {
     return str.split("").reverse().join('');
 }
